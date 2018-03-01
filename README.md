@@ -6,6 +6,8 @@
 This project simply installs Yarn in the most optimal way possible, on the
 already slim Debian Slim install.
 
+It also adds the `curl` and `zip` binaries.
+
 ## How to use
 
 To use it, install it from [Docker Hub](https://hub.docker.com/r/roelofr/node-yarn/), or use the command below.

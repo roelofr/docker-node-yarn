@@ -5,6 +5,7 @@ RUN apt-get update \
     && apt-get install -yq \
         apt-transport-https \
         curl \
+        zip \
     && apt-get clean -yq \
     && rm -rf /var/cache/apt/*
 
